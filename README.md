@@ -71,4 +71,4 @@ Sweet-Alert
 
 ## Developer
 
-[Siddhant Sehgal](https://github.com/coderrsid)
+[Veevek Dave](https://github.com/veevekdv)
