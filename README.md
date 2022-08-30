@@ -1,9 +1,4 @@
 <h1 align="center"> Smart-Brain </h1> <br>
-<p align="center">
-	<a href="http://tinypic.com?ref=2nhnurq" target="_blank">
-		<img src="http://i63.tinypic.com/2nhnurq.png" border="0" alt="Smart-Brain">
-	</a>
-</p>
 
 <table>
 	<tr>
