@@ -1,106 +1,79 @@
-# Smart-Brain-Detection-App
-A full stack image recognition app that detects a face in any image uploaded by the user
+<h1 align="center"> Smart-Brain </h1> <br>
+<p align="center">
+	<a href="http://tinypic.com?ref=2nhnurq" target="_blank">
+		<img src="http://i63.tinypic.com/2nhnurq.png" border="0" alt="Smart-Brain">
+	</a>
+</p>
 
-https://user-images.githubusercontent.com/68403991/186737627-181dabf5-c82f-4d66-8d6d-fc8c2b7be2f8.mov
+<table>
+	<tr>
+		<td>
+			Smart-Brain uses Clarifai API to detect face in an image. It helps to detect face in a picture provided by user through URL of image. User's rank gets upgraded everytime user detects image in a picture.
+		</td>
+	</tr>
+</table>
 
-### <pre>[Demo Video](https://www.google.com/) [Project Link](https://uchat-client.netlify.app/) [Frontend Architecture](https://github.com/dfong0530/UChat/tree/main/client) [Backend Architecture](https://github.com/dfong0530/UChat/tree/main/server)</pre>
+## Demo
 
-###### Frontend Developers: David Fong, Justin Tran, Veevek Dave, Tashi Sherpa
+Here is a working live demo : (Under maintainance)
 
-###### Backend Developers: David Fong
+## Site
 
-### Inspiration
+### Home Page (after login)
 
-On Thursday, Febuary 22, 2022, Russia invaded Ukraine. The invasion wreaked havoc on the civilians and many lost their homes, lives, and loved ones. Depsite the invasion, Ukraine has not lost hope and continues fighting.
+![homepage](https://user-images.githubusercontent.com/35633575/44616266-460c2180-a86a-11e8-8bab-508c37075446.PNG)
 
-This project was created in support on Ukraine. We wanted to create an application where the rest of the world could reach out and provide support to people directly within Ukraine. This chat application application allows users in Ukraine to communicate with the rest of the world and the rest of the world to communicate with Ukraine.
+### Register
 
-This software connects those who need support and those who are generous enough to provide it.
+![register](https://user-images.githubusercontent.com/35633575/44616250-e877d500-a869-11e8-9ceb-dbe9896e8a11.PNG)
 
-### What is does
+### Sign In
 
-Our chat application allows the rest of the world to communicate with people in Ukraine. When a user is loaded in, they create an account specifying their username, password, and location (through the navigator.geolocation function and google maps api).
+![login](https://user-images.githubusercontent.com/35633575/44616255-faf20e80-a869-11e8-9408-d2ebd729261d.PNG)
 
-The user is then directed to the chat application where they have options to add friends and chat with people in Ukraine or the rest of the world depending on where they reside.
+### Face Detection Example
 
-Users outside of Ukraine have options to donate to the person they are speaking with.
+![fdexample](https://user-images.githubusercontent.com/35633575/44616232-ae0e3800-a869-11e8-8945-8ee338470844.PNG)
 
----
+## [Usage](https://github.com/coderrsid/smart-brain-app/)
 
-### Contribution
+### Development
 
-#### David Fong
+Want to contribute? Great!
 
-    I was the project lead. I worked on building out the backend, designing the architecture of
-    the frontend, and assisted my teamates wherever needed.
+To fix a bug or enhance an existing module, follow these steps:
 
-    I learned a lot about various backend technologies like socket.io, node.js, and express, mongoDB.
+- Fork the repo
+- Create a new branch (`git checkout -b improve-feature`)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (`git commit -m 'Improve feature'`)
+- Push to the branch (`git push origin improve-feature`)
+- Create a Pull Request
 
-#### Justin Tran
+### Bug / Feature Request
 
-    I worked on building the frontend portion of the project for the login and messaging page using
-    React Javascript, HTML and CSS. I also worked on integrating the functionality from the backend to reflect
-    it on the frontend by updating the views and incorporating interactive UIs for the user.
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/coderrsid/smart-brain-app/issues/new) by including your search query and the expected result.
 
-    Overall, I developed my understanding of React JS and reinforced my skills for HTML and CSS.
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/coderrsid/smart-brain-app/issues/new). Please include sample queries and their corresponding results.
 
-#### Veevek Dave
+## Built with
 
-    I worked as a front-end developer for this project. I was reponsible for creating Create-Account page and 
-    the message component which was used in the messaging page. I utlized React.js and CSS to build these pages.
-    I also assisted the members in my Team whenever they needed help or were stuck.
-    
-    Through this experience, I learned how to impliment React.js, but more importantly learned how to work in team 
-    and communicate effectivly through using tools like Git, Figma, and daily "stand-ups". Thanks to David for this
-    great learning oppurtunity.
-    
-#### Tashi Sherpa
+- [ReactJS](https://reactjs.org/) - React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
+- [NPM](https://www.npmjs.com/) - npm is the package manager for JavaScript and the world’s largest software registry. Discover packages of reusable code — and assemble them in powerful new ways.
 
-    I was a frontend developer for this project. I worked on the landing page the donation design and functionality,
-    and the media queries for pages to ensure a responsive user interface for all screen sizes.
-    To carry out these tasks, I used React.js, HTML, CSS, and Javascript.
+## To-do
 
-    I would say that this journey really helped me learn and develop my skills with React.js and Git as well as
-    solidify and reinforce my understanding of HTML, CSS, and Javascript.
+- Add profile view in app
+- Add validations to Register Form
+- Add home page to app
+- Add multiple face detection
 
----
+## Sources-Used
 
-### How to test
+Clarifai Face Detection API<br>
+Sweet-Alert
 
-1. Clone the project and open both start both servers -or- click the project link
+## Developer
 
-2. Open up two instances of the website
-
-3. Sign in with --> username: david, password: davidpassword
-
-4. Sign in with --> username: gabby, password: gabbypassword
-
-5. Click the add friend icon on both sites.
-
-6. Message each other
-
-Gabby is located in "Ukraine" and David is located in "New York". In order for users to be connected one of the them has to be in Ukraine and one outside of Ukraine.
-
-### Tech Stack (MERN)
-
-We used Mongodb, Express, React, and Node.js to build out this application. We also used socket.io for messaging between users.
-
-### Installation
-
-1. git clone
-
-2. Open two instances of terminal/command prompt
-
-3. cd UChat
-
-###### FrontEnd
-
-- cd client
-- npm install
-- npm start
-
-###### BackEnd
-
-- cd server
-- npm install
-- npm start
+[Siddhant Sehgal](https://github.com/coderrsid)
